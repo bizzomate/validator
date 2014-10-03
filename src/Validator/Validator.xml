@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="Validator.widget.Validator" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>Validator</name>
+  <description>Validate input of a specific field based on a regex.</description>
+  <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKlSURBVDhPxZFdSBRRFMfPzOzMzuyum+6O67i6
+Wn4EaR+wiWUPRYgQUQmFQZhPhUVPPUSIJKEPPYREX2DSgw8hBT2GbBhktOxaG0jiF2msuS0iarq6
+OePOujOdO46F0Xt/+HHvPed/D+fcC/9dVEfnvfYq/8FmmqGBpiigaRoohKEZXCnQNR00HdEyiIZn
+DbQMrhibiU69oXNFd3ZZoVcaCgWlbJ6TXDZeGv4QlkoLJOlHPCZFx0ekPTt9m3kru5mPDEpFeaLk
+y89304qsCE6nE4LBIMTjcUgkEtDX1wckNjY2BpOTk8ae5GOxGCSTSQgEAuBwOEBRFIG63/XkaUP9
+mcs6tkjaphkER7BaOVhRFsmU4ORdkEqlIIOtkzEyGfTiyKFQ+B3l8XgaeZ6vJZe2VFnrKW++eqlm
+l6+UoSkGojPRja7H3aGJ9/NR02IUUlV1hMJ9HVJtRFE1Fwv2t9y63rC0MU0tp2aBoVjw2isgx1Ks
+tba0Po+8nJswrURTpIADEcipYJ9gvfLg+LDgZFxJdQHw7cFuEeGc7w7Y2Gx4Md4213b2mV9ehA3i
+R6mk75/IAuHU7ZJi4FKuE9JNOJTbBDn2Mjhf1Akuzgc8lQViVr50rfdY3pYfWfkzOMrCUrYDrtPg
+FSrgiHgBGovugmgrNB51Wh5CPoLk8NlMu6FtBWR2/fPI0tt0WleAZTnYIYjAcRws67MwoPTib3iV
+JLM4atoNbSvQc/LrQiKV6O5f7cGMjkVYmNe/Qz/zCmirA9xC+aP2w69XTbshxlx/69vEUkTcneVX
+3XLJGj5P0BIGa5rTVz/JAx1ND2+sJdKyaTVEfuFvkR/x7z1aWl9dV1Vp0S1UOBD5Mjo4FcD4IJIk
+pi39qwCJWRA7QoqR8zqyhqiIjpgC+AWuLPdaK47PtwAAAABJRU5ErkJggg==</icon>
+  <properties>
+    <property key="classString" type="string" required="true">
+      <caption>Classname</caption>
+      <category>Behavior</category>
+      <description>Classname of the inputfield to check</description>
+    </property>
+    <property key="regexStr" type="string" required="true">
+      <caption>Regex</caption>
+      <category>Behavior</category>
+      <description>Regular expression to match the input of the field on. Note that you will have to specify the flags seperately!</description>
+    </property>
+      <property key="regexFlags" type="string" required="false">
+      <caption>Regex Flags</caption>
+      <category>Behavior</category>
+      <description>Optional flags for the Regular expression.</description>
+    </property>
+    <property key="trueImg" type="image" required="true">
+      <caption>Validation ok image</caption>
+      <category>Appearance</category>
+      <description>The image to show when the field validates.</description>
+    </property>
+    <property key="falseImg" type="image" required="true">
+      <caption>Validation error image</caption>
+      <category>Appearance</category>
+      <description>The image to show when the validation throws an error.</description>
+    </property>
+    <property key="errorMsg" type="translatableString" required="true">
+      <caption>Validation error message</caption>
+      <category>Appearance</category>
+      <description>The message to show when the validation throws an error</description>
+    </property>
+  </properties>
+</widget>
