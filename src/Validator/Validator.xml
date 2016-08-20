@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<widget id="Validator.widget.Validator" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+<widget id="Validator.widget.Validator" offlineCapable="true" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
   <name>Validator</name>
   <description>Validate input of a specific field based on a regex.</description>
   <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
